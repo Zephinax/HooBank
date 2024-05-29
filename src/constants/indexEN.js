@@ -17,20 +17,20 @@ import {
 
 export const navLinks = [
   {
-    id: 'clients',
-    title: 'مشتری ها',
-  },
-  {
-    id: 'product',
-    title: 'محصولات',
+    id: 'home',
+    title: 'Home',
   },
   {
     id: 'features',
-    title: 'ویژگی ها',
+    title: 'Features',
   },
   {
-    id: 'home',
-    title: 'خانه',
+    id: 'product',
+    title: 'Product',
+  },
+  {
+    id: 'clients',
+    title: 'Clients',
   },
 ];
 
@@ -38,23 +38,23 @@ export const features = [
   {
     id: 'feature-1',
     icon: star,
-    title: 'پاداش',
+    title: 'Rewards',
     content:
-      'بهترین کارت های اعتباری ترکیبی از تبلیغات و جوایز وسوسه انگیز را ارائه می دهند',
+      'The best credit cards offer some tantalizing combinations of promotions and prizes',
   },
   {
     id: 'feature-2',
     icon: shield,
-    title: '۱۰۰٪ امن',
+    title: '100% Secured',
     content:
-      'ما اقدامات پیشگیرانه ای انجام می دهیم تا مطمئن شویم اطلاعات و تراکنش های شما ایمن هستند.',
+      'We take proactive steps make sure your information and transactions are secure.',
   },
   {
     id: 'feature-3',
     icon: send,
-    title: 'انتقال تعادل',
+    title: 'Balance Transfer',
     content:
-      'کارت اعتباری انتقال موجودی می تواند پول زیادی را در هزینه های بهره صرفه جویی کند.',
+      'A balance transfer credit card can save you a lot of money in interest charges.',
   },
 ];
 
@@ -62,25 +62,25 @@ export const feedback = [
   {
     id: 'feedback-1',
     content:
-      'پول فقط یک ابزار است. شما را به هر کجا که بخواهید می برد، اما جایگزین شما به عنوان راننده نمی شود.',
-    name: 'باران یاری',
-    title: 'بنیانگذار و رهبر',
+      'Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.',
+    name: 'Herman Jensen',
+    title: 'Founder & Leader',
     img: people01,
   },
   {
     id: 'feedback-2',
     content:
-      'پول زندگی شما را آسان تر می کند. اگر خوش شانس هستید که آن را دارید، خوش شانس هستید.',
-    name: 'آرمان کاظمی',
-    title: 'بنیانگذار و رهبر',
+      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    name: 'Steve Mark',
+    title: 'Founder & Leader',
     img: people02,
   },
   {
     id: 'feedback-3',
     content:
-      'معمولاً این افراد در تجارت پول، امور مالی و تجارت بین المللی هستند که واقعاً ثروتمند هستند.',
-    name: 'سینا آزاده',
-    title: 'بنیانگذار و رهبر',
+      'It is usually people in the money business, finance, and international trade that are really rich.',
+    name: 'Kenn Gallagher',
+    title: 'Founder & Leader',
     img: people03,
   },
 ];
@@ -88,81 +88,81 @@ export const feedback = [
 export const stats = [
   {
     id: 'stats-1',
-    title: 'کاربر فعال',
+    title: 'User Active',
     value: '3800+',
   },
   {
     id: 'stats-2',
-    title: 'مورد اعتماد شرکت',
+    title: 'Trusted by Company',
     value: '230+',
   },
   {
     id: 'stats-3',
-    title: 'معامله',
+    title: 'Transaction',
     value: '$230M+',
   },
 ];
 
 export const footerLinks = [
   {
-    title: 'لینک های مفید',
+    title: 'Useful Links',
     links: [
       {
-        name: 'محتوا',
+        name: 'Content',
         link: 'https://www.hoobank.com/content/',
       },
       {
-        name: 'چگونه کار می کند',
+        name: 'How it Works',
         link: 'https://www.hoobank.com/how-it-works/',
       },
       {
-        name: 'ايجاد كردن',
+        name: 'Create',
         link: 'https://www.hoobank.com/create/',
       },
       {
-        name: 'کاوش کنید',
+        name: 'Explore',
         link: 'https://www.hoobank.com/explore/',
       },
       {
-        name: 'شرایط و خدمات',
+        name: 'Terms & Services',
         link: 'https://www.hoobank.com/terms-and-services/',
       },
     ],
   },
   {
-    title: 'انجمن',
+    title: 'Community',
     links: [
       {
-        name: 'مرکز کمک',
+        name: 'Help Center',
         link: 'https://www.hoobank.com/help-center/',
       },
       {
-        name: 'شرکا',
+        name: 'Partners',
         link: 'https://www.hoobank.com/partners/',
       },
       {
-        name: 'پیشنهادات',
+        name: 'Suggestions',
         link: 'https://www.hoobank.com/suggestions/',
       },
       {
-        name: 'بلاگ',
+        name: 'Blog',
         link: 'https://www.hoobank.com/blog/',
       },
       {
-        name: 'خبرنامه ها',
+        name: 'Newsletters',
         link: 'https://www.hoobank.com/newsletters/',
       },
     ],
   },
   {
-    title: 'شراکت',
+    title: 'Partner',
     links: [
       {
-        name: 'شریک ما',
+        name: 'Our Partner',
         link: 'https://www.hoobank.com/our-partner/',
       },
       {
-        name: 'شریک ما بشوید',
+        name: 'Become a Partner',
         link: 'https://www.hoobank.com/become-a-partner/',
       },
     ],
