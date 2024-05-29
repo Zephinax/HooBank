@@ -25,7 +25,7 @@ const Billing = () => {
           سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
           متنوع با هدف بهبود ابزارهای کاربردی می باشد.
         </p>
-        <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
+        <div className='flex gap-8 flex-row flex-wrap sm:mt-10 mt-6'>
           <img
             src={apple}
             alt='app-store'

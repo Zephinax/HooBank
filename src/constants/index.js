@@ -98,8 +98,8 @@ export const stats = [
   },
   {
     id: 'stats-3',
-    title: 'معامله',
-    value: '$230M+',
+    title: 'میلیون معامله',
+    value: '46+',
   },
 ];
 
