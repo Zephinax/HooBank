@@ -20,7 +20,7 @@ const Footer = () => {
             روشی جدید برای آسان کردن، قابل اطمینان و ایمن کردن پرداخت ها.
           </p>
         </div>
-        <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
+        <div className='flex-[1.5] w-full flex flex-row justify-center  lg:justify-around flex-wrap md:mt-0 mt-10'>
           {footerLinks.map((link) => (
             <div
               key={link.title}

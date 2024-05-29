@@ -27,7 +27,9 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () => {
   return (
     <section id='features' className={layout.section}>
-      <div dir='rtl' className={layout.sectionInfo}>
+      <div
+        dir='rtl'
+        className={`${layout.sectionInfo} items-center text-center`}>
         <h2 className={styles.heading2}>
           شما کار را انجام دهید, <br className='sm:block hidden' />
           ما پول را مدیریت میکنیم

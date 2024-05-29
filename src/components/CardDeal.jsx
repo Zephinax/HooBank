@@ -6,7 +6,9 @@ import styles, { layout } from '../style';
 const CardDeal = () => {
   return (
     <section className={layout.section}>
-      <div dir='rtl' className={layout.sectionInfo}>
+      <div
+        dir='rtl'
+        className={`${layout.sectionInfo} items-center text-center`}>
         <h2 className={styles.heading2}>
           در چند مرحله آسان، <br className='sm:block hidden' />
           معامله بهتری پیدا کنید.

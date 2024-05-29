@@ -14,7 +14,9 @@ const Billing = () => {
         <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient' />
         <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient' />
       </div>
-      <div dir='rtl' className={layout.sectionInfo}>
+      <div
+        dir='rtl'
+        className={`${layout.sectionInfo} items-center text-center`}>
         <h2 className={styles.heading2}>
           صورت حساب خود را <br className='sm:block hidden' /> به راحتی کنترل
           کنید
