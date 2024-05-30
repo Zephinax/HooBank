@@ -5,6 +5,7 @@ import GetStarted from './GetStarted';
 const Hero = () => {
   return (
     <section
+      dir='rtl'
       id='home'
       className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div
@@ -35,7 +36,7 @@ const Hero = () => {
         </p>
       </div>
       <div
-        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+        className={`flex-1 flex ${styles.flexCenter} scale-x-[-1] md:my-0 my-10 relative`}>
         <img
           src={robot}
           alt='billing'

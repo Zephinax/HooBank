@@ -158,11 +158,15 @@ export const footerLinks = [
     title: 'شراکت',
     links: [
       {
-        name: 'شریک ما',
+        name: 'شریک های ما',
         link: 'https://www.hoobank.com/our-partner/',
       },
       {
         name: 'شریک ما بشوید',
+        link: 'https://www.hoobank.com/become-a-partner/',
+      },
+      {
+        name: 'شرایط شراکت',
         link: 'https://www.hoobank.com/become-a-partner/',
       },
     ],
