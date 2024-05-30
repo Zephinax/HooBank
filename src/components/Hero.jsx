@@ -10,7 +10,7 @@ const Hero = () => {
       className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div
         dir='rtl'
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+        className={`flex-1 ${styles.flexStart} items-center  sm:items-start flex-col xl:px-0 sm:px-16 px-6`}>
         <div
           dir='rtl'
           className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
@@ -21,15 +21,16 @@ const Hero = () => {
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
+          <h1 className='flex-1 text-center sm:text-right font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]'>
             نسل بعدی <br className='sm:block hidden' />{' '}
             <span className='text-gradient'>روش پرداخت.</span>{' '}
           </h1>
-          <div className='ss:flex hidden md:mr-4 mr-0'>
+          <div className='sm:flex hidden md:mr-4 mr-0'>
             <GetStarted />
           </div>
         </div>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p
+          className={`${styles.paragraph} max-w-[470px] text-center sm:text-right mt-5`}>
           تیم کارشناسان ما از روشی برای شناسایی کارت های اعتباری استفاده می کنند
           به احتمال زیاد مطابق با نیازهای شما ما نرخ های درصد سالانه را بررسی می
           کنیم، هزینه های سالانه.
