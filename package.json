@@ -1,7 +1,6 @@
 {
   "name": "business-website-template",
   "version": "1.0.0",
-  "homepage": "https://zephinax.github.io/HooBank",
   "private": true,
   "type": "module",
   "scripts": {
