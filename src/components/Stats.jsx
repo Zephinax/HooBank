@@ -12,7 +12,7 @@ const Stats = () => {
   };
   return (
     <section
-      className={`${styles.flexCenter} flex-col sm:flex-row flex-wrap sm:mb-20 mb-6`}>
+      className={`${styles.flexCenter} flex-col sm:flex-row sm:justify-around flex-wrap sm:mb-20 mb-6`}>
       {stats.map((stat) => (
         <ObserveVisibility callback={toggleVisibility}>
           <div
