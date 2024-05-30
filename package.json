@@ -1,7 +1,8 @@
 {
   "name": "business-website-template",
   "version": "1.0.0",
-  "private": true,
+  "homepage": "https://zephinax.github.io/HooBank",
+  "private": false,
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
