@@ -7,7 +7,7 @@ const Hero = () => {
     <section
       dir='rtl'
       id='home'
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+      className={`flex md:flex-row flex-col min-h-[100dvh] ${styles.paddingY}`}>
       <div
         dir='rtl'
         className={`flex-1 ${styles.flexStart} items-center  sm:items-start flex-col xl:px-0 sm:px-16 px-6`}>
