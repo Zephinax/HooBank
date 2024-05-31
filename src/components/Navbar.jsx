@@ -29,14 +29,13 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? 'flex' : 'hidden'
-          } p-6 bg-black-gradient absolute  top-[80px] right-0  z-[10]  min-w-[140px] w-full h-[100dvh] rounded-xl sidebar`}>
-          <ul className='list-none flex flex-col mt-[-20px] gap-4 justify-center items-center flex-1'>
+          } p-6 bg-black-gradient absolute top-[80px] right-0 z-[10] min-w-[140px] w-full h-[100dvh] rounded-xl sidebar`}>
+          <ul className='list-none flex flex-col-reverse mt-[-20px] gap-8 justify-center items-center flex-1'>
             {navLinks.map((nav, i) => (
               <li
+                onClick={() => setToggle(false)}
                 key={nav.id}
-                className={`font-poppins text-center font-normal cursor-pointer text-[5vw] ${
-                  i === navLinks.length - 1 ? 'mr-0' : 'mb-4'
-                } text-white`}>
+                className={`font-poppins text-center font-normal cursor-pointer text-[5vw] text-white`}>
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
