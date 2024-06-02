@@ -1,12 +1,11 @@
 # HooBank - Business Website Template
 
-Modern responsive business website design made with React and Tailwind CSS.
-
-⚠️ **All names, information and assets used are fake and do not represent a real componany.** ⚠️
-
-<!-- Live demo can be found under this [**link**](https://business-website-template.onrender.com/). -->
+Live demo can be found under this [**link**](https://zephinax.github.io/HooBank/).
 
 ![image](https://user-images.githubusercontent.com/72783924/222011304-859783c2-3a38-47b6-9427-d323f01d0fba.png)
+⚠️ **All names, information and assets used are fake and do not represent a real componany.** ⚠️
+
+Modern landing, Expertly developed using React and Tailwind CSS. visually stunning and intuitive interface that redefines the standard of modern web design
 
 ## Layout
 
@@ -25,6 +24,32 @@ Modern responsive business website design made with React and Tailwind CSS.
 - React.js
 - Tailwind CSS
 - Vite
+
+## How to install
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/Zephinax/HooBank.git
+```
+
+2. Go into project
+
+```bash
+cd HooBank
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run project
+
+```bash
+npm run dev
+```
 
 Give a ⭐ if you like this project!
 
